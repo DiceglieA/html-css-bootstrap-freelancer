@@ -49,15 +49,41 @@
     border-bottom: 1px solid black;
 }
 
+
+/* HOVER */
 button:hover {
     opacity: 0.5;
-}
-
-img:hover {
-    scale: 1.2;
 }
 
 .social:hover {
     border: 2px solid white;
     scale: 1.2;
+}
+
+.nav-link:hover {
+    color: #4BB99E;
+}
+
+.plus-hover {
+    position: relative;
+}
+
+.plus {
+    display: none;
+    font-size: 10rem;
+    color: white;
+}
+
+.plus-hover img:hover{
+    background-color: #4BB99E;
+    opacity: 0.5;
+    position: relative;
+}
+
+.plus-hover img:hover + .plus{
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    
 }
