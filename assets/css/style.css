@@ -56,3 +56,8 @@ button:hover {
 img:hover {
     scale: 1.2;
 }
+
+.social:hover {
+    border: 2px solid white;
+    scale: 1.2;
+}
